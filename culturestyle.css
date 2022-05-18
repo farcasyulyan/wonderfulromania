@@ -1,0 +1,60 @@
+.container {
+    background-color: #eee;
+    padding: 1em;
+}
+table, th, td {
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+}
+.container #antet {
+    background-image: linear-gradient(to bottom right, rgb(51, 255, 0), rgb(106, 183, 228));
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+}
+.navabar {
+    display : grid;
+    background-color: aqua;
+    padding: 5px;
+    grid-template-columns: 30% 40% 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+#navabar1:hover {
+    background-color: yellowgreen;
+}
+#navabar2:hover {
+    background-color: yellowgreen;
+}
+#navabar3:hover {
+    background-color: yellowgreen;
+}
+.treicoloane {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    position: relative;
+}
+.text {
+    text-align: center;
+    font-size: 24px;
+    background-color: aquamarine;
+    padding: 5px;
+}
+a:hover {
+    background-color : yellow;
+}
+.text:hover {
+    background-color: coral;
+}
+footer {
+    background-color: #66CCFF;
+    color:aliceblue;
+    height: 30px;
+    padding: 15px;
+    clear: both;
+    text-align: left;
+    position: sticky;
+}

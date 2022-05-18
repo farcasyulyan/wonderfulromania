@@ -1,0 +1,44 @@
+header {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+main {
+    background-color: rgb(130, 245, 230);
+    color:black;
+    text-align: left;
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: calc(100vh - 100.78px - 18px);
+    padding: 10px; 
+    font-size: 32px;
+}
+main div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 600px;
+}
+main div.gallery img {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 4fr;
+}
+main div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+main div.yelltext {
+    font-family: 'Times New Roman', Times, serif;
+    margin:  200px;
+}
+footer {
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+}

@@ -1,0 +1,174 @@
+/****************************************************TAG SELECTORS***********************************************/
+/*font used in site is : 
+font-family: 'Dancing Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Sacramento', cursive;*/
+/* font-size: 16px = 100% = 1em*/
+
+html {
+    width: 1346px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    width: 1346px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    align-content: center;
+}
+
+p {
+   margin: 8px;
+}
+
+
+
+/****************************************************CLASS SELECTORS*******************************************/
+
+.bottom-container {
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 360px;
+    margin-right: 360px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+}
+.card-text {
+    color: rgb(182, 176, 176)
+}
+
+.container {
+    width: 1346px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    max-width: 1346px;
+}
+.desc {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    color:rgb(140, 231, 87)
+}
+.footer-formular {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));
+    color:rgb(36, 15, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    height: 40px;
+    padding: 5px;
+    clear: both;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-radius: 10px;
+}
+.footer-copyright {
+    color: black;
+    font-size: 8px;
+    font-weight: normal;
+    text-align: center;
+}
+.footer-list {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-control {
+    width: 142px;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 600px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 4fr;
+}
+.header {
+    background-image: linear-gradient(rgb(175, 245, 135), rgb(101, 221, 221));
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin: 0px;
+}
+.header1 {
+    color: blue;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0px;
+}
+.header2 {
+    font-size: 300%;
+    font-family: 'Dancing Script', cursive;
+    color:yellow;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 16px;
+
+}
+.header3 {
+    font-size: 75%;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu1 {
+    background-color: #ccc;
+    margin: 0px;
+    height: 32px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+.summerimg {
+    position: relative;
+    display: inline-flex;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    width: 1346px;
+}   
+.snav1  {
+    display: inline-block;
+    list-style-type: none;
+    background-color: #ccc;
+    padding-left: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*****************************************************ID SELECTORS*********************************************/
+
+
+/***************************************************Testiomnial section*************************************/
+
+

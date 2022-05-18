@@ -1,0 +1,28 @@
+/*******************************************************TAG SELECTOR****************************************************************************/
+
+
+/******************************************************CLASS SELECTOR**************************************************************************/
+.container1 {
+  padding-left: 0px 60px 0px 60px;
+  text-align: center;
+}
+
+.container-lg {
+     padding: 0px;
+}
+.row {
+    max-width: 1320;
+}
+/*******************************************************ID SELECTOR**************************************************/
+.aligncenter {
+  text-align: center;
+}
+#sigla {
+  font-size: 1.5rem;
+  color: blue;
+  text-decoration: solid;
+  font-style:italic;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  font-family: 'Montserrat, san-serif';
